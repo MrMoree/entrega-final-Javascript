@@ -1,0 +1,175 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+}
+
+.navbar .logo {
+    width: 70px;
+}
+
+.navbar #xxx {
+    color: white;
+    position: fixed;
+    margin-left: 90px;
+    font-size: 25px;
+}
+
+.navbar #pepe {
+    color: white;
+    font-size: 18px;
+}
+
+.navbar #pepe a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar #pepe a:hover {
+    color: greenyellow;
+}
+
+body {
+background-image: url(img/fondo.jpg);
+}
+
+.carousel{
+    margin-bottom: 2%;
+}
+
+.carousel-item {
+    max-height: 500px;
+    overflow: hidden;
+    margin-top: 4.5%;
+    /* 1920x1080 */
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.pepa h2 {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 60%;
+    margin: auto;
+}
+
+.pepa p {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: auto;
+    width: 60%;
+    font-weight: 400;
+}
+
+h1 {
+    color: white
+}
+
+#tabla {
+    margin: auto;
+    width: 40%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: x-large;
+}
+
+#cajaCarga th {text-align: center;}
+
+
+.total {
+    font-weight: bold;
+}
+
+#tituloMayor {
+    vertical-align: 90%;
+    color: white;
+    display: inline-block;
+}
+
+#mostrarIngresos {
+    text-align: center;
+    margin: 2% 0% 4% 0%;
+}
+
+#mostrarGastos {
+    text-align: center;
+    margin: 2% 0% 4% 0%;
+}
+
+#botonResumen {
+    text-align: center;
+    justify-content: center;
+}
+
+#saldos{
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#resultados{
+    width: 100%;
+    text-align: left;
+    margin: auto;
+    margin-top: 2%;    
+}
+
+#resultados table{width: 30%;margin: auto; margin-bottom: 4%; margin-top: 2%;}
+#resultados #jsonMeses table{width: 70%;margin: auto; margin-bottom: 1%;}
+
+#jsonMeses{
+    text-align: left;
+    width: 60%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+#jsonMeses th{
+    text-align: left;
+}
+
+#cajaCargas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#cajaIngresos{    
+    float: left;
+    width: 40%;
+    margin-left: 3%;
+}
+
+#cajaGastos{
+    float: right;
+    width: 40%;
+    margin-right: 3%;
+}
+
+.card{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+#saldos{
+    clear: both;
+    margin-top: 35%;
+}
+
+#saldos img{margin-right: 5%;}
+
+#botonesJson{
+    margin: auto;
+    text-align: center;
+}
+
+#btn1{margin-right: 1%;}

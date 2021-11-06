@@ -1,0 +1,23 @@
+[
+    {
+        "mes": "Julio",
+        "saldo": 1000,
+        "totalIngresos": 2000,
+        "totalGastos": 1000
+    },
+
+    {
+        "mes": "Agosto",
+        "saldo": 8000   ,
+        "totalIngresos": 16000,
+        "totalGastos": 8000        
+    },
+
+    {
+        "mes": "Octubre",
+        "saldo": 7000   ,
+        "totalIngresos": 16000,
+        "totalGastos": 9000        
+    }
+
+]
